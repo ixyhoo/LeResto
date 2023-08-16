@@ -49,4 +49,20 @@ header nav .logo {
   font-weight: 100;
   font-size: 2rem;
   text-align: left;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding: 0 30px;
+}
+@media screen and (max-width: 680px) {
+  header nav ul {
+    visibility: hidden;
+  }
+}
+header nav ul li {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
