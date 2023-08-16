@@ -157,4 +157,12 @@ header .header-text div h6 {
 .section1 .intro-text h5 {
   color: rgb(182, 182, 182);
   font-size: 0.7rem;
+}
+.section1 .intro-pic {
+  background: url(../img/store-01.jpg) center/cover;
+}
+@media screen and (max-width: 680px) {
+  .section1 .intro-pic {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
