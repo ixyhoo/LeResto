@@ -210,4 +210,18 @@ header .header-text div h6 {
 .section2 .meals {
   background: #eee;
   color: #21201e;
+  width: 85%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-top: 4px solid rgb(166, 114, 69);
+  padding: 15px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  z-index: 1000;
+  position: relative;
+}
+@media srceen and (max-width: 680px) {
+  .section2 .meals {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=index.css.map */
