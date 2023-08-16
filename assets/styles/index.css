@@ -224,4 +224,18 @@ header .header-text div h6 {
   .section2 .meals {
     grid-template-columns: 1fr;
   }
+}
+.section2 .meals .meal {
+  display: grid;
+  grid-template-columns: 25% 60% 15%;
+  border-bottom: 1px dashed rgb(182, 182, 182);
+  padding: 30px 0;
+  margin: 0 20px;
+}
+.section2 .meals .meal img {
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  align-self: center;
 }/*# sourceMappingURL=index.css.map */
