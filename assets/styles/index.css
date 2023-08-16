@@ -206,4 +206,8 @@ header .header-text div h6 {
 .section2 ul li {
   border-bottom: 1px solid rgb(182, 182, 182);
   padding-bottom: 8px;
+}
+.section2 .meals {
+  background: #eee;
+  color: #21201e;
 }/*# sourceMappingURL=index.css.map */
