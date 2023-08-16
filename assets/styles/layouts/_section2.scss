@@ -67,7 +67,30 @@
                 width: 100%;
                 align-self: center;
             }
-            .meal-text {}
+            .meal-text {
+                text-align: left;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin: 0 10px;
+                height: 100%;
+
+                h3 {
+                    text-transform: uppercase;
+                    color: $black;
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+            }
+            > p {
+                color: $color1;
+                font-weight: 600;
+                font-size: 1.1rem;
+                display: grid;
+                height: 100%;
+                align-items: center;
+            }
         }
     }
 

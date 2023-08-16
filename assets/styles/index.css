@@ -238,4 +238,27 @@ header .header-text div h6 {
      object-fit: cover;
   width: 100%;
   align-self: center;
+}
+.section2 .meals .meal .meal-text {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+  height: 100%;
+}
+.section2 .meals .meal .meal-text h3 {
+  text-transform: uppercase;
+  color: #21201e;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.section2 .meals .meal > p {
+  color: rgb(166, 114, 69);
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: grid;
+  height: 100%;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
