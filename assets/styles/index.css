@@ -126,4 +126,35 @@ header .header-text div h6 {
   .section1 {
     grid-template-columns: 1fr;
   }
+}
+.section1 .intro-text {
+  margin: 15px;
+  padding: 30px 15px;
+  border: 1px dashed rgb(166, 114, 69);
+}
+.section1 .intro-text h2 {
+  color: rgb(166, 114, 69);
+  font-family: "Allura", cursive;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.section1 .intro-text h3 {
+  margin-top: -12px;
+  font-family: "Poppins", sans-serif;
+}
+.section1 .intro-text img {
+  margin: 26px;
+}
+.section1 .intro-text img:nth-of-type(2) {
+  height: 70px;
+  border-radius: 150px;
+  margin-bottom: 8px;
+}
+.section1 .intro-text h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+.section1 .intro-text h5 {
+  color: rgb(182, 182, 182);
+  font-size: 0.7rem;
 }/*# sourceMappingURL=index.css.map */
