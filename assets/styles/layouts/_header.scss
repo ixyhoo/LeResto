@@ -39,11 +39,18 @@ header {
         }
 
         .nav-icons {
-            transition: 0.2s;
+            @include alignChildren(space-around);
+            font-size: 0.8rem;
 
             i {
-                
+                transition: 0.2s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
             }
         }
     }
+    
 }
