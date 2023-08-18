@@ -419,4 +419,31 @@ header .header-text div h6 {
 }
 .section4 .events-container .event-grid .date-content h6 {
   font-style: 1.7rem;
+}
+.section4 .events-container .event-grid .address {
+  background: #eee;
+}
+.section4 .events-container .event-grid h3 {
+  letter-spacing: 1px;
+  font-style: 1.3rem;
+  font-weight: 500;
+  padding-left: 8px;
+}
+.section4 .events-container .event-grid p {
+  font-style: 0.9rem;
+  color: rgb(182, 182, 182);
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.section4 .events-container .event-grid p i {
+  margin-right: 3px;
+  font-style: 0.7rem;
+  transform: translateY(-2px);
+}
+.section4 .events-container .event-grid p i:nth-child(2) {
+  margin-left: 10px;
+}
+.section4 .events-container .event-grid h5 {
+  letter-spacing: 2px;
+  margin-top: 25px;
 }/*# sourceMappingURL=index.css.map */
