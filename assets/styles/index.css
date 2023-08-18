@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Allura";
   src: url(../fonts/Allura-Regular.ttf);
@@ -528,10 +529,10 @@ header .header-text div h6 {
   line-height: 30px;
 }
 .section5 .quote-container .texte-container:before {
-  content: "''";
+  content: "§";
 }
 .section5 .quote-container .texte-container:after {
-  content: "''";
+  content: "§";
 }
 .section5 .quote-container .texte-container:before, .section5 .quote-container .texte-container:after {
   font-size: 1.5rem;
@@ -543,4 +544,16 @@ header .header-text div h6 {
 }
 .section5 .quote-container p {
   color: rgb(166, 114, 69);
+}
+
+footer {
+  background: url(../img/bg-footer.jpg) no-repeat center center;
+  text-align: left;
+  padding: 65px 32px;
+  color: #eee;
+}
+@media screen and (max-width: 680px) {
+  footer {
+    background: none;
+  }
 }/*# sourceMappingURL=index.css.map */
