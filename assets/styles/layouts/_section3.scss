@@ -92,7 +92,22 @@
                     border-bottom: 1px solid $grey;
                 }
             }
+            button {
+                border:none;
+                border-radius: 50px;
+                background: $black;
+                color: $white;
+                padding: 16px 34px;
+                letter-spacing: 4px;
+                font-weight: 700;
+                cursor: pointer;
+                transition: 0.2s;
 
+                &:hover {
+                    transform: translateX(3px);
+                    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.433);
+                }
+            }
         }
     }
 }
