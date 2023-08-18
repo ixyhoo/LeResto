@@ -74,7 +74,16 @@
                 height: 25px;
                 margin: 25px;
             }
-            
+            .form-inputs {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 680px) {
+                    grid-template-columns: 1fr;
+                }
+            }
+
         }
     }
 }

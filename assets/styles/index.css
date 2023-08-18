@@ -334,4 +334,14 @@ header .header-text div h6 {
 .section3 .form-content .form-infos img {
   height: 25px;
   margin: 25px;
+}
+.section3 .form-content .form-infos .form-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 680px) {
+  .section3 .form-content .form-infos .form-inputs {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=index.css.map */
