@@ -19,5 +19,26 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .left-part {
+        padding-right: 30px;
+        line-height: 30px;
+
+        @media screen and (max-width: 680px) {
+            display: none;
+        }
+       h2 {
+        font-family: $font1;
+        font-style: 2.5rem;
+        font-weight: 100;
+        color: $color1;
+        margin-bottom: 15px;
+       } 
+       p {
+        font-style: 0.9rem;
+        color: $grey;
+       }
+    }
+
     
+
 }

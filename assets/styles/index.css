@@ -568,4 +568,24 @@ footer {
   .footer-content {
     grid-template-columns: 1fr;
   }
+}
+.footer-content .left-part {
+  padding-right: 30px;
+  line-height: 30px;
+}
+@media screen and (max-width: 680px) {
+  .footer-content .left-part {
+    display: none;
+  }
+}
+.footer-content .left-part h2 {
+  font-family: "Allura", cursive;
+  font-style: 2.5rem;
+  font-weight: 100;
+  color: rgb(166, 114, 69);
+  margin-bottom: 15px;
+}
+.footer-content .left-part p {
+  font-style: 0.9rem;
+  color: rgb(182, 182, 182);
 }/*# sourceMappingURL=index.css.map */
