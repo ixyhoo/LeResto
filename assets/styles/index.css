@@ -588,4 +588,29 @@ footer {
 .footer-content .left-part p {
   font-style: 0.9rem;
   color: rgb(182, 182, 182);
+}
+.footer-content .right-part {
+  padding-left: 50px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+@media screen and (max-width: 680px) {
+  .footer-content .right-part {
+    padding-left: 20px;
+  }
+}
+.footer-content .right-part h3 {
+  font-style: 0.85rem;
+}
+.footer-content .right-part input {
+  margin-top: 15px;
+  background: none;
+  border: 1px solid rgba(166, 114, 69, 0.151);
+  padding: 7px 13px;
+  width: 250px;
+}
+@media screen and (max-width: 680px) {
+  .footer-content .right-part input {
+    width: 150px;
+  }
 }/*# sourceMappingURL=index.css.map */
