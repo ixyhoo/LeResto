@@ -397,4 +397,11 @@ header .header-text div h6 {
 }
 .section4 .events-container img {
   margin: 30px 0;
+}
+.section4 .events-container .event-grid {
+  display: grid;
+  grid-template-columns: 58% 42;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a b" "c b";
+  gap: 20px;
 }/*# sourceMappingURL=index.css.map */
