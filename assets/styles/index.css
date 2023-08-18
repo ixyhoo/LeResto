@@ -503,4 +503,24 @@ header .header-text div h6 {
   background: url(../img/gmap.jpg) center/cover;
   left: 0;
   bottom: 0;
+}
+.section5 .quote-container {
+  background: #eee;
+  z-index: 3;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 65px 70px;
+  box-shadow: 0 0 3px #333;
+}
+.section5 .quote-container:before {
+  content: "";
+  position: absolute;
+  background: url(../img/avatar-02.jpg) center/cover;
+  height: 60px;
+  width: 60px;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50px;
 }/*# sourceMappingURL=index.css.map */
