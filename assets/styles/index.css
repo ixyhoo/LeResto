@@ -404,4 +404,7 @@ header .header-text div h6 {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "a b" "c b";
   gap: 20px;
+}
+.section4 .events-container .event-grid .date-content {
+  background: #21201e;
 }/*# sourceMappingURL=index.css.map */
