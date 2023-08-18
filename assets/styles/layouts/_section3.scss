@@ -82,6 +82,15 @@
                 @media screen and (max-width: 680px) {
                     grid-template-columns: 1fr;
                 }
+
+                > * {
+                    padding: 10px 0;
+                    margin: 10px;
+                    background: none;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid $grey;
+                }
             }
 
         }

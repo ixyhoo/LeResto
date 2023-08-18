@@ -344,4 +344,12 @@ header .header-text div h6 {
   .section3 .form-content .form-infos .form-inputs {
     grid-template-columns: 1fr;
   }
+}
+.section3 .form-content .form-infos .form-inputs > * {
+  padding: 10px 0;
+  margin: 10px;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(182, 182, 182);
 }/*# sourceMappingURL=index.css.map */
