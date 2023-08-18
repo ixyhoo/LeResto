@@ -523,4 +523,24 @@ header .header-text div h6 {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50px;
+}
+.section5 .quote-container .texte-container {
+  line-height: 30px;
+}
+.section5 .quote-container .texte-container:before {
+  content: "''";
+}
+.section5 .quote-container .texte-container:after {
+  content: "''";
+}
+.section5 .quote-container .texte-container:before, .section5 .quote-container .texte-container:after {
+  font-size: 1.5rem;
+}
+.section5 .quote-container h2 {
+  margin: 30px 0 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+.section5 .quote-container p {
+  color: rgb(166, 114, 69);
 }/*# sourceMappingURL=index.css.map */
