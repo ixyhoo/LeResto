@@ -557,52 +557,51 @@ footer {
     background: none;
   }
 }
-
-.footer-content {
+footer .footer-content {
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 @media screen and (max-width: 680) {
-  .footer-content {
+  footer .footer-content {
     grid-template-columns: 1fr;
   }
 }
-.footer-content .left-part {
+footer .footer-content .left-part {
   padding-right: 30px;
   line-height: 30px;
 }
 @media screen and (max-width: 680px) {
-  .footer-content .left-part {
+  footer .footer-content .left-part {
     display: none;
   }
 }
-.footer-content .left-part h2 {
+footer .footer-content .left-part h2 {
   font-family: "Allura", cursive;
   font-style: 2.5rem;
   font-weight: 100;
   color: rgb(166, 114, 69);
   margin-bottom: 15px;
 }
-.footer-content .left-part p {
+footer .footer-content .left-part p {
   font-style: 0.9rem;
   color: rgb(182, 182, 182);
 }
-.footer-content .right-part {
+footer .footer-content .right-part {
   padding-left: 50px;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
 @media screen and (max-width: 680px) {
-  .footer-content .right-part {
+  footer .footer-content .right-part {
     padding-left: 20px;
   }
 }
-.footer-content .right-part h3 {
+footer .footer-content .right-part h3 {
   font-style: 0.85rem;
 }
-.footer-content .right-part input {
+footer .footer-content .right-part input {
   margin-top: 15px;
   background: none;
   border: 1px solid rgba(166, 114, 69, 0.151);
@@ -610,7 +609,32 @@ footer {
   width: 250px;
 }
 @media screen and (max-width: 680px) {
-  .footer-content .right-part input {
+  footer .footer-content .right-part input {
     width: 150px;
   }
+}
+footer .footer-content .right-part .follow-us {
+  display: flex;
+  margin-top: 50px;
+}
+@media screen and (max-width: 680px) {
+  footer .footer-content .right-part .follow-us h3 {
+    display: none;
+  }
+}
+footer .footer-content .right-part .follow-us ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #595956;
+  font-style: 0.8rem;
+  width: 200px;
+  cursor: pointer;
+}
+footer .footer-content .right-part .follow-us ul i {
+  transition: 0.2s;
+}
+footer .footer-content .right-part .follow-us ul i:hover {
+  transform: scale(1.5);
 }/*# sourceMappingURL=index.css.map */
