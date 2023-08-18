@@ -446,4 +446,47 @@ header .header-text div h6 {
 .section4 .events-container .event-grid h5 {
   letter-spacing: 2px;
   margin-top: 25px;
+}
+.section4 .events-container .event-left {
+  display: grid;
+  grid-template-columns: 39% 61%;
+  text-align: left;
+}
+.section4 .events-container .event-left .date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4 .events-container .event-left .address {
+  color: #21201e;
+  padding: 30px 20px;
+}
+.section4 .events-container .event-1 {
+  grid-area: a;
+}
+.section4 .events-container .event-1 .date {
+  background: url(../img/event-01.jpg) center/cover;
+}
+.section4 .events-container .event-2 {
+  grid-area: c;
+}
+.section4 .events-container .event-2 .date {
+  background: url(../img/event-02.jpg) center/cover;
+}
+.section4 .events-container .event-3 {
+  grid-area: b;
+}
+.section4 .events-container .event-3 .date {
+  background: url(../img/event-03.jpg) center/cover;
+  padding: 25px;
+}
+.section4 .events-container .event-3 .date .address {
+  height: 100%;
+  padding: 0 12px;
+}
+.section4 .events-container .event-3 .date .address h3 {
+  margin: 40px 0 15px;
+}
+.section4 .events-container .event-3 .date .address h5 {
+  padding: 45px 0;
 }/*# sourceMappingURL=index.css.map */
