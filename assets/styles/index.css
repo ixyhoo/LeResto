@@ -556,4 +556,16 @@ footer {
   footer {
     background: none;
   }
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media screen and (max-width: 680) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=index.css.map */
