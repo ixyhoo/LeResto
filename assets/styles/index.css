@@ -407,4 +407,16 @@ header .header-text div h6 {
 }
 .section4 .events-container .event-grid .date-content {
   background: #21201e;
+  height: 86px;
+  width: 86px;
+  margin: 0 auto;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 22px;
+}
+.section4 .events-container .event-grid .date-content h6 {
+  font-style: 1.7rem;
 }/*# sourceMappingURL=index.css.map */

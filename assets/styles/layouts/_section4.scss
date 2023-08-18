@@ -39,7 +39,20 @@
 
             .date-content {
                 background: $black;
+                height: 86px;
+                width: 86px;
+                margin: 0 auto;
+                color: $white;
+                @include childCenter;
+                flex-direction: column;
+                line-height: 22px;
+
+                h6 {
+                    font-style: 1.7rem;
+                }
             }
+
+            .adress
         }
 
     }
