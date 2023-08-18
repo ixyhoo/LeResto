@@ -1,0 +1,15 @@
+.section5 {
+    padding: 70px 0 230px;
+    position: relative;
+
+    &:after {
+        content: "";
+        height: 350px;
+        width: 100%;
+        position: absolute;
+        background: url(../img/gmap.jpg) center/cover;
+        left: 0;
+        bottom: 0;
+    }
+    .quote-container
+}

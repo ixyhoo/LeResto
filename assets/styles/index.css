@@ -489,4 +489,18 @@ header .header-text div h6 {
 }
 .section4 .events-container .event-3 .date .address h5 {
   padding: 45px 0;
+}
+
+.section5 {
+  padding: 70px 0 230px;
+  position: relative;
+}
+.section5:after {
+  content: "";
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  background: url(../img/gmap.jpg) center/cover;
+  left: 0;
+  bottom: 0;
 }/*# sourceMappingURL=index.css.map */
