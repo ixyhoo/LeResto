@@ -1,0 +1,58 @@
+.section3 {
+    padding: 100px 15px 65px;
+    color: $white;
+
+    .form-content {
+        display: flex;
+        grid-template-columns: 30% 70%;
+        background: $white;
+        max-width: 1050px;
+        margin: 0 auto ;
+
+        @media screen and (max-width: 850px) {
+            grid-template-columns: 1fr;
+        }
+
+        .hours {
+            padding: 20px;
+            background: black;
+
+            .hours-content {
+                border: 1px dashed $grey;
+                padding: 20px 0;
+
+                h3 {
+                    font-family: $font1;
+                    font-style: 2.5rem;
+                    font-weight: 100;
+                    color: $color1;
+                }
+
+                h4 {
+                    font-family: $font2;
+                    margin-top: -10px;
+                    letter-spacing: 2px;
+                    font-style: 1.3rem;
+                }
+
+                img {
+                    margin-top: 25px;
+                }
+
+                h5 {
+                    text-transform: uppercase;
+                    color: $color1;
+                    font-family: $font2;
+                    font-weight: 100;
+                    font-style: 1.1rem;
+                    margin: 38px 0 12px;
+                }
+
+                p {
+                    font-size: 0.85rem;
+                }
+            }
+        }
+
+    }
+}

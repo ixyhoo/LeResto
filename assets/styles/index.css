@@ -261,4 +261,55 @@ header .header-text div h6 {
   display: grid;
   height: 100%;
   align-items: center;
+}
+
+.section3 {
+  padding: 100px 15px 65px;
+  color: #eee;
+}
+.section3 .form-content {
+  display: flex;
+  grid-template-columns: 30% 70%;
+  background: #eee;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 850px) {
+  .section3 .form-content {
+    grid-template-columns: 1fr;
+  }
+}
+.section3 .form-content .hours {
+  padding: 20px;
+  background: black;
+}
+.section3 .form-content .hours .hours-content {
+  border: 1px dashed rgb(182, 182, 182);
+  padding: 20px 0;
+}
+.section3 .form-content .hours .hours-content h3 {
+  font-family: "Allura", cursive;
+  font-style: 2.5rem;
+  font-weight: 100;
+  color: rgb(166, 114, 69);
+}
+.section3 .form-content .hours .hours-content h4 {
+  font-family: "Poppins", sans-serif;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  font-style: 1.3rem;
+}
+.section3 .form-content .hours .hours-content img {
+  margin-top: 25px;
+}
+.section3 .form-content .hours .hours-content h5 {
+  text-transform: uppercase;
+  color: rgb(166, 114, 69);
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: 1.1rem;
+  margin: 38px 0 12px;
+}
+.section3 .form-content .hours .hours-content p {
+  font-size: 0.85rem;
 }/*# sourceMappingURL=index.css.map */
